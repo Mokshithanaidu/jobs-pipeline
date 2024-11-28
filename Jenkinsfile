@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Run hello.py
-                    python3 'hello.py'
+                    python 'hello.py'
                 }
             }
         }
