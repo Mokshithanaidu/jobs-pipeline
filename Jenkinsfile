@@ -14,8 +14,8 @@ pipeline {
                 script {
                     // Compile and run Hello.java
                     bat '''
-                    javac Hello.java
-                    java Hello
+                    javac hello.java
+                    java hello
                     '''
                 }
             }
